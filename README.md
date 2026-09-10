@@ -6,7 +6,7 @@
 ## 실행 방법
 
 ```bash
-git clone https://github.com/cire21st/ubuntu-novnc-docker.git
+git clone https://github.com/cire21st/ubuntu-novnc.git
 cd ubuntu-novnc-docker
 docker compose up
 ```
