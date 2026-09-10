@@ -76,8 +76,11 @@ RUN wget https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg
 # Enable apt-get completion after running `apt-get update` in the container
 RUN rm /etc/apt/apt.conf.d/docker-clean
 
-COPY ./entrypoint.sh /
-ENTRYPOINT [ "/bin/bash", "-c", "/entrypoint.sh" ]
+COPY ./entrypoint.sh /entrypoint.sh
+
+RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
 
 ENV USER ubuntu
 ENV PASSWD ubuntu
