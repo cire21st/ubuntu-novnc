@@ -1,7 +1,7 @@
 services:
   ubuntu-noble-novnc:
     container_name: ubuntu-noble-novnc
-    image: eric321kr/ubuntu-noble-full:latest
+    image: cire21st/ubuntu-noble-full:latest
     privileged: true
     ipc: host
     pid: host
