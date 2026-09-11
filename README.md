@@ -16,12 +16,13 @@ docker compose up
 ```
 
 브라우저에서 `http://localhost/` 접속하면 데스크톱 화면이 뜹니다.
+noVNC의 연결 버튼을 클릭하여 Ubuntu를 자유롭게 사용합니다.
 
 종료:
 ```bash
 docker compose down
 ```
-## 실습 파일 저장 위치
+## 실습 파일 저장 위치(중요!!)
 
 `workspace` 폴더가 컨테이너 바탕화면(`~/Desktop`)과 연결되어 있습니다. 
 (`~/Desktop`) 밖에 디렉토리에 정보는 저장되지 않습니다!! 실습 코드는 (`~/Desktop`) 안에 저장하세요.
