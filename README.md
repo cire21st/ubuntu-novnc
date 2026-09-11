@@ -1,4 +1,4 @@
-# Ubuntu 24.04 noVNC Docker
+# Ubuntu 24.04 noVNC Docker for 오픈소스SW기초 
 <img src="https://github.com/user-attachments/assets/018a008d-c310-4ed5-93e6-1c9b6859f7a9" width="900" height="550" />
 
 브라우저만으로 Ubuntu 24.04 데스크톱 환경에 접속할 수 있는 Docker 이미지입니다. (리눅스 수업 실습용)
