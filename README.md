@@ -5,7 +5,7 @@
 
 ## 실행 전 도커 설치 필수
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Windows / Mac) 또는 Docker Engine (Linux)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Windows / Mac)
 
 설치 확인:
 ```bash
