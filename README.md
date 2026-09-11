@@ -22,6 +22,7 @@ noVNC의 연결 버튼을 클릭하여 Ubuntu를 자유롭게 사용합니다.
 ```bash
 docker compose down
 ```
+혹은
 ```bash
 ctrl + c
 ```
