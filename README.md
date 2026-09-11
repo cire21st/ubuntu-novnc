@@ -22,6 +22,9 @@ noVNC의 연결 버튼을 클릭하여 Ubuntu를 자유롭게 사용합니다.
 ```bash
 docker compose down
 ```
+```bash
+ctrl + c
+```
 ## 실습 파일 저장 위치(중요!!)
 
 `workspace` 폴더가 컨테이너 바탕화면(`~/Desktop`)과 연결되어 있습니다. 
