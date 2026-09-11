@@ -10,7 +10,6 @@ git clone https://github.com/cire21st/ubuntu-novnc.git
 ```
 ```bash
 cd ubuntu-novnc
-docker compose up
 ```
 ```bash
 docker compose up
