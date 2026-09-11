@@ -21,16 +21,10 @@ docker compose up
 ```bash
 docker compose down
 ```
-
-## 직접 빌드하려면
-
-```bash
-docker compose -f docker-compose-build.yaml up --build
-```
-
 ## 실습 파일 저장 위치
 
-`workspace` 폴더가 컨테이너 바탕화면(`~/Desktop`)과 연결되어 있습니다. 실습 코드는 여기에 저장하세요.
+`workspace` 폴더가 컨테이너 바탕화면(`~/Desktop`)과 연결되어 있습니다. 
+(`~/Desktop`) 밖에 디렉토리에 정보는 저장되지 않습니다!! 실습 코드는 (`~/Desktop`) 안에 저장하세요.
 
 ## 포함된 프로그램
 
@@ -38,6 +32,12 @@ docker compose -f docker-compose-build.yaml up --build
 - VSCodium (코드 에디터)
 - Firefox
 - gcc / g++ / make
+
+## 직접 빌드하려면
+
+```bash
+docker compose -f docker-compose-build.yaml up --build
+```
 
 ---
 *아직 작업 중인 임시 버전입니다.*
