@@ -13,7 +13,7 @@
 docker --version
 docker compose version
 ```
-(중요!)설치후 반드시 Docker Desktop 실행하기
+**(중요!)설치후 반드시 Docker Desktop 실행하기**
 win키 + Docker Desktop 검색 후 실행
 ## 실행 방법
 
