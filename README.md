@@ -7,7 +7,7 @@
 
 ```bash
 git clone https://github.com/cire21st/ubuntu-novnc.git
-cd ubuntu-novnc-docker
+cd ubuntu-novnc
 docker compose up
 ```
 
