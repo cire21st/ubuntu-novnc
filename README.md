@@ -26,7 +26,7 @@ git clone https://github.com/cire21st/ubuntu-novnc.git
 cd ubuntu-novnc
 ```
 ```bash
-docker compose up
+docker compose up -d
 ```
 
 브라우저에서 `http://localhost/` 접속하면 데스크톱 화면이 뜹니다.
@@ -37,10 +37,7 @@ noVNC의 연결 버튼을 클릭하여 Ubuntu를 자유롭게 사용합니다.
 ```bash
 docker compose down
 ```
-혹은
-```bash
-ctrl + c
-```
+
 ## 실습 파일 저장 위치(중요!!)
 
 `workspace` 폴더가 컨테이너 바탕화면(`~/Desktop`)과 연결되어 있습니다. 
