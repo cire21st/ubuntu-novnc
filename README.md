@@ -17,7 +17,7 @@ docker compose up
 
 브라우저에서 `http://localhost/` 접속하면 데스크톱 화면이 뜹니다.
 noVNC의 연결 버튼을 클릭하여 Ubuntu를 자유롭게 사용합니다.
-
+---
 종료:
 ```bash
 docker compose down
