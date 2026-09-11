@@ -6,16 +6,16 @@
 ## 실행 전 도커 설치 필수
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Windows / Mac) 또는 Docker Engine (Linux)
-- Docker Compose (Docker Desktop에는 기본 포함)
 
 설치 확인:
 ```bash
 docker --version
 docker compose version
 ```
-**(중요!)설치후 반드시 Docker Desktop 실행하기**
-
+설치후 반드시 Docker Desktop 실행:
+```
 win키 + Docker Desktop 검색 후 실행
+```
 
 ## 실행 방법
 
